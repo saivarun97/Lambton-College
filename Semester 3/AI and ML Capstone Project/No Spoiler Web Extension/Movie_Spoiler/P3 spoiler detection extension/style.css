@@ -1,0 +1,262 @@
+html,
+body {
+  overflow: auto;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  border: none;
+  font-family: Roboto, sans-serif;
+  height: 70px;
+  width: 500px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #2196f3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* header */
+
+.header {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+.name {
+  font-size: 25px;
+}
+
+.turnonToggle {
+  float: right;
+  margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+}
+
+.footerBtn {
+  border: 1px solid #cdcdcd;
+  border-bottom: none;
+  border-right: none;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #406fb7;
+  transition: 0.3s;
+
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.footerBtn:hover {
+  background-color: #406fb7;
+  cursor: pointer !important;
+  color: white;
+}
+
+.footerBtn span {
+  position: relative;
+  top: -5px;
+}
+
+.footerIcon {
+  font-size: 26px;
+}
+
+/* home */
+
+.home {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  background-color: white;
+  width: 94%;
+
+  padding: 35px 10px 30px 10px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 3px 4px 8px #aaaaaa;
+}
+
+.blurText {
+  filter: blur(4px);
+}
+
+.loremTextDiv {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 30px;
+}
+
+/* actions */
+
+.actions {
+  text-align: center !important;
+  margin-top: 2px;
+}
+
+.actionBtn {
+  background-color: transparent;
+  border-radius: 25px;
+  height: 45px;
+  border: 1px solid #406fb7;
+  border-width: thin;
+  font-size: 16px;
+  color: #406fb7;
+  margin: 0px 5px 0px 5px;
+  padding: 0px 15px 0px 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.actionBtn:hover {
+  background-color: #406fb7;
+  color: white;
+}
+
+textarea {
+  resize: none !important;
+  width: 100%;
+  height: 111px;
+  border-radius: 5px;
+  margin-top: 10px !important;
+  padding: 15px;
+  opacity: 0.5;
+}
+
+textarea:focus {
+  border: 1px solid #406fb7 !important;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+.textAreaDiv {
+  margin-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.actionBtnSelected {
+  background-color: #406fb7;
+  color: white;
+}
+
+/* Quick Links */
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.quieckLinkNames {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.quickLinkText {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.backToMain {
+  margin-top: 100px;
+  border-radius: 10px;
+  height: 40px;
+  color: #406fb7;
+  background-color: transparent;
+  padding: 0px 20px 0px 20px;
+  font-weight: 400;
+  font-size: 20px;
+  border: 2px solid #406fb7;
+  transition: 0.3s;
+}
+
+.backToMain:hover {
+  background-color: #406fb7;
+  color: white;
+}
+
+#closeBtn {
+  font-size: 30px;
+  right: 6px;
+  position: absolute;
+  top: 6px;
+  color: rgb(206, 6, 6);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#closeBtn:hover {
+  color: rgb(255, 0, 0);
+}
+
+.chromane-blur_text-blur {
+    filter: blur(10px);
+}  

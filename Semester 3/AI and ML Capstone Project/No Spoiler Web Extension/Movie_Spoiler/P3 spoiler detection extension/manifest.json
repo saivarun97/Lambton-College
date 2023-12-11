@@ -1,0 +1,12 @@
+{
+    "name": "Spoiler Detection",
+    "version": "1.0.0",
+    "description": "",
+    "manifest_version": 3,
+    "author": "",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Spoiler Detection"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
