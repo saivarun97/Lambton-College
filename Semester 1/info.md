@@ -1,5 +1,16 @@
 All the courses that are completed during this semester.
-* 2022W CBD 2214 1 Big Data Fundamentals - Data Storage Networking
-* 2022W AML 1413 1 Introduction to Artificial Intelligence
-* 2022W AML 1214 1 Python Programming
-* 2022W AML 1114 1 Data Science and Machine Learning
+*Big Data Fundamentals - Data Storage Networking
+ **- Unsupervised Learning Clustering
+ **- Starbucks data analysis 
+ **- HeartWise - Heart Discease Predection 
+ 
+ *Introduction to Artificial Intelligence
+ **- Supervised and Unsupervised Learning on IRIS Data
+ **- ANN on Credit Card Fraud Data
+ 
+ *Python Programming
+ **- Streamlit based Website with NLP apps like TTS and STT (google api's)
+ 
+ *Data Science and Machine Learning
+ **- Experiment on missing values
+ **- Exploratory Data Analysis on Adult Data
