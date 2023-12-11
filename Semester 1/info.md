@@ -1,8 +1,8 @@
 All the courses that are completed during this semester.
 * Big Data Fundamentals - Data Storage Networking
- * Unsupervised Learning Clustering
- *  Starbucks data analysis 
- *  HeartWise - Heart Discease Predection 
+ - Unsupervised Learning Clustering
+ -  Starbucks data analysis 
+ -  HeartWise - Heart Discease Predection 
  
  * Introduction to Artificial Intelligence
   *  Supervised and Unsupervised Learning on IRIS Data
