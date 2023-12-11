@@ -10,4 +10,4 @@
  
 * Neural Networks and Deep Learning
    - Covid-19 Detection using X-Rays (Flask APP)
-   - Emotion Analysis from Images (Single and multi class)
+   - Emotion Analysis from Images (Single and multi class) 
