@@ -1,0 +1,12 @@
+altair==4.2.0
+pandas==1.4.3
+protobuf==4.21.5
+pyttsx3==2.90
+regex==2022.7.25
+SpeechRecognition==3.8.1
+streamlit==1.11.1
+textblob==0.17.1
+torch==1.12.1
+tqdm==4.64.0
+transformers==4.21.1
+vaderSentiment==3.3.2
